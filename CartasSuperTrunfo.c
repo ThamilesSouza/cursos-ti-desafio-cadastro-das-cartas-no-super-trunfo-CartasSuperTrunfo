@@ -1,22 +1,64 @@
 #include <stdio.h>
 
 // Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+#include <stdio.h>
 
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    printf("Desafiosupertrunfo!\n");
 
+    char estadoA1 [60];
+    char cidadeA1 [60];
+    int habitantesA1;
+    int numerodepontosturisticosA1;
+    float areaA1;
+    float pibA1;
+    char estadoB1 [60];
+    char cidadeB1 [60];
+    int habitantesB1;
+    int numerodepontosturisticosB1;
+    float areaB1;
+    float pibB1;
+
+    printf("Digite seu estadoA1:\n");
+    scanf("%s", &estadoA1);
+
+    printf("Digite sua cidadeA1:\n");
+    scanf("%s", &cidadeA1);
+
+    printf("Digite numero de habitantesA1:\n");
+    scanf("%d", &habitantesA1);
+
+    printf("Digite numero de pontos turisticosA1:\n");
+    scanf("%d", &numerodepontosturisticosA1);
+
+    printf("Digite a areaA1:\n");
+    scanf("%f", &areaA1);
+
+    printf("Digite a pibA1:\n");
+    scanf("%f", &pibA1);
+
+    printf("Digite seu estadoB1:\n");
+    scanf("%s", &estadoB1);
+
+    printf("Digite sua cidadeB1:\n");
+    scanf("%s", &cidadeB1);
+
+    printf("Digite numero de habitantesB1:\n");
+    scanf("%d", &habitantesB1);
+
+    printf("Digite numero de pontos turisticosB1:\n");
+    scanf("%d", &numerodepontosturisticosB1);
+
+    printf("Digite a areaB1:\n");
+    scanf("%f", &areaB1);
+
+    printf("Digite a pibB1:\n");
+    scanf("%f", &pibB1);
+
+    printf("estadoA1, cidadeA1:%s - habitantesA1, numerodepontosturisticosA1: %d\n");
+    printf("areaA1, pibA1: %f\n");
+    printf("estadoB1, cidadeB1:%s - habitantesB1, numerodepontosturisticosB1: %d\n");
+    printf("areaB1, pibB1: %f\n");
+    
     return 0;
 }
